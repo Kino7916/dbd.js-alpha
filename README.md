@@ -24,7 +24,7 @@ Please note NodeJS v14 is needed and Development is subject to change.
 
 ### Setup
 ```js
-const dbd = require("dbd.js@dev")
+const dbd = require("dbd.js")
 
 const bot = new dbd.Bot({prefix: "!"})
 
