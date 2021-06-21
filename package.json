@@ -6,7 +6,17 @@
   "scripts": {
     "test": "node test.js"
   },
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leref/dbd.js-alpha.git"
+  },
   "dependencies": {
     "dbdjs.db": "^1.0.4",
     "discord.js": "^13.0.0-dev.f7eeccba4b7015496df811f10cc2da2b0fab0630",
