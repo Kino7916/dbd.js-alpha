@@ -33,14 +33,10 @@ bot.enableEvent("ready");
 
 const id = bot.createCommmand({code:"$log[$username[$clientID] is Ready.]"});
 bot.assignType(bot.Types.Ready, id);
-/*bot.status({
-    status: "dnd",
-    name: "text field",
-    type: "WATCHING"
-}) */
+
 bot.assignType(bot.Types.Message, bot.createCommmand({
   name:"ping", //Command Name
-  code:"Pong! $pingms" //Returns <Websocket Ping>ms
+  code:"Pong! $pingms" //Returns <Websocket Ping> ms
 }))
 
 bot.login("Discord Bot Token")
