@@ -1,6 +1,6 @@
   <br />
     <p>
-    <a href="https://dbd.leref.ga"><img src="https://cdn.discordapp.com/attachments/804505335397744650/816746774571515914/dbdjs.png" alt="dbd.js" /></a>
+    <a href="(https://dbd.js.org/doc"><img src="https://dbd.js.org/assets/images/dbdjs.png" alt="dbd.js" /></a>
   </p>
 
 # dbd.js
@@ -46,4 +46,5 @@ bot.login("Discord Bot Token")
 
 ## Links
 - [Website](https://dbd.js.org)
+- [Documentation](https://dbd.js.org/doc)
 - [Discord Server](https://dbd.js.org/invite)
