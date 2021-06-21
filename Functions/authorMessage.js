@@ -1,0 +1,1 @@
+module.exports = d => d.data.message.authorMessage || d.data.message.author.id;

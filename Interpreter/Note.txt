@@ -1,0 +1,13 @@
+All functions are read from bottom to top, excluding ones that returns a Function.
+
+Those Functions will be executed from top to bottom, which can believe users that the System is reading it Staticly.
+
+Bottom to Top:
+
+return "123"
+
+Top to Bottom:
+
+return function (data) { [javascript code] }
+
+Also make sure that functions that return Function is recommended to not return any value except error
