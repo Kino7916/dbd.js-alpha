@@ -11,11 +11,14 @@
   - [Setup](#setup)
 
 ## About
-dbd.js is a NPM package that is covering Discord API by using discord.js-light as a wrapper.
+dbd.js is a NPM package that is covering Discord API by using discord.js as a wrapper.
 <br>
 
 Creating your Discord Bot with built-in functions with ease.
  </br>
+
+## Before using
+Please note NodeJS v14 is needed and Development is subject to change.
 
 ## Examples
 
