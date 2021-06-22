@@ -9,10 +9,13 @@ async function resolveMessage(message, client, channelID, content, embed, realCo
   const channel = await client.channels.fetch(channelID, false);
 
   if (!channel) return new Error("Unavailable channel " + String(channelID) + " or not found as it's not available for Client.");
-  
+
   if (!embed.description) embed = {};
   try {
-  const msg = await channel.send(content, {embeds: [embed]});
+  const msg = await channel.send({
+    content,
+    embed
+  });
 
   return msg;
   } catch (err) {
